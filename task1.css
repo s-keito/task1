@@ -32,7 +32,7 @@ main{
   color: #fff;
 }
 
-.step:last-child{
+.item:last-child{
   margin-right: 0;
 }
 
@@ -69,4 +69,24 @@ footer{
 }
 
 
+@media screen and (max-width: 760px) {
+  main{
+    width: 100%;
+    display: block;
+  }
+  
+  .item{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .item:last-child{
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 
+}
